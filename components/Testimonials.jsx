@@ -1,4 +1,8 @@
 import React from 'react'
+import Image from 'next/image'
+import testimonial1 from '@/public/testimonial1.jpg'
+import testimonial2 from '@/public/testimonial2.jpg'
+import testimonial3 from '@/public/testimonial3.jpg'
 
 function Testimonials() {
   return (
@@ -12,10 +16,10 @@ function Testimonials() {
           <div className="card-body items-center text-center">
             <div className="avatar mb-4">
               <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=John" alt="John Doe" />
+                <Image src={testimonial1} alt="John Doe" />
               </div>
             </div>
-            <p className="text-lg mb-4">"This product has revolutionized our workflow. It's intuitive, powerful, and has saved us countless hours. Highly recommended!"</p>
+            <p className="text-lg mb-4">This product has revolutionized our workflow. It's intuitive, powerful, and has saved us countless hours. Highly recommended!</p>
             <h3 className="font-semibold text-xl">John Doe</h3>
             <p className="text-sm opacity-70">CEO, TechCorp</p>
             <div className="rating rating-md mt-4">
@@ -38,10 +42,10 @@ function Testimonials() {
           <div className="card-body items-center text-center">
             <div className="avatar mb-4">
               <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=Sarah" alt="Sarah Johnson" />
+                <Image src={testimonial2} alt="Sarah Johnson" />
               </div>
             </div>
-            <p className="text-lg mb-4">"The platform has made managing our non-profit so much easier. The donation tracking and volunteer coordination features are exceptional!"</p>
+            <p className="text-lg mb-4">The platform has made managing our non-profit so much easier. The donation tracking and volunteer coordination features are exceptional!</p>
             <h3 className="font-semibold text-xl">Sarah Johnson</h3>
             <p className="text-sm opacity-70">Director, Hope Foundation</p>
             <div className="rating rating-md mt-4">
@@ -63,10 +67,10 @@ function Testimonials() {
           <div className="card-body items-center text-center">
             <div className="avatar mb-4">
               <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=Michael" alt="Michael Smith" />
+                <Image src={testimonial3} alt="Michael Smith" />
               </div>
             </div>
-            <p className="text-lg mb-4">"As a small non-profit, this tool has been a game-changer. The collaboration features and donor management system are exactly what we needed!"</p>
+            <p className="text-lg mb-4">As a small non-profit, this tool has been a game-changer. The collaboration features and donor management system are exactly what we needed!</p>
             <h3 className="font-semibold text-xl">Michael Smith</h3>
             <p className="text-sm opacity-70">Founder, Community Outreach</p>
             <div className="rating rating-md mt-4">
