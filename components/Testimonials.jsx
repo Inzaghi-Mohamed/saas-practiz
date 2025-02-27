@@ -2,9 +2,7 @@ import React from 'react'
 
 function Testimonials() {
   return (
-    <div id='testimonials' className="animate-fade-in-up" style={{
-      animation: 'fade-in-up 0.6s ease-out'
-    }}>
+    <div id='testimonials' className="">
     <section className="py-16 bg-blue-600">
   <div className="container mx-auto px-4">
     <h2 className="text-4xl font-bold text-center mb-12 text-white">What Our Clients Say</h2>
