@@ -11,7 +11,7 @@ function Header() {
          <h1 className='text-2xl font-bold text-primary'>Non-Profit</h1>
         </Link>
       </div>
-      <div className="space-x-4 lg:space-x-8">
+      <div className="space-x-4 max-md:hidden lg:space-x-8">
         <Link className='hover:text-primary hover:underline' href="#features">Features</Link>
         <Link className='hover:text-primary hover:underline' href="#pricing">Pricing</Link>
         <Link className='hover:text-primary hover:underline' href="#testimonials">Testimonials</Link>

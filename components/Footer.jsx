@@ -31,29 +31,35 @@ function Footer() {
         
         {/* Product Links */}
         <div className="mt-4 space-x-2">
-          <h3 className="text-2xl font-bold mb-4">Product</h3> 
+            <h3 className="text-2xl font-bold mb-4 text-primary">Product</h3> 
+            <div className='flex flex-col'>
           <Link href="#" className="link link-hover">Features</Link> 
           <Link href="#" className="link link-hover">Pricing</Link> 
           <Link href="#" className="link link-hover">Use Cases</Link> 
           <Link href="#" className="link link-hover">Integrations</Link>
+          </div>
         </div> 
         
         {/* Company Links */}
         <div className="mt-4 space-x-2">
-          <h3 className ="text-2xl font-bold mb-4">Company</h3> 
+        <h3 className =" text-2xl font-bold mb-4 text-primary">Company</h3> 
+        <div className='flex flex-col'>
           <Link href="#" className="link link-hover">About Us</Link> 
           <Link href="#" className="link link-hover">Careers</Link> 
           <Link href="#" className="link link-hover">Press</Link> 
           <Link href="#" className="link link-hover">Blog</Link>
+        </div>
         </div> 
         
         {/* Support Links */}
         <div className="mt-4 space-x-2">
-          <h3 className ="text-2xl font-bold mb-4">Support</h3> 
+          <h3 className ="text-2xl font-bold mb-4 text-primary">Support</h3>  
+          <div className='flex flex-col'>
           <Link href="#" className="link link-hover">Help Center</Link> 
           <Link href="#" className="link link-hover">Documentation</Link> 
           <Link href="#" className="link link-hover">API Status</Link> 
           <Link href="#" className="link link-hover">Contact Us</Link>
+          </div>
         </div>
       </div>
       
