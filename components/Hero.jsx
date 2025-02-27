@@ -5,8 +5,8 @@ function Hero() {
   return (
     <div className=' flex justify-between items-center px-4 py-10 container mx-auto'>
       <div className='space-y-4'>
-        <h1 className='text-4xl font-bold'>Transform Your NonProfit's <span className='text-primary'>Digital Operations</span></h1>
-        <p className='text-gray-500'>Non-Profit Project is a platform for non-profit organizations to manage their projects and donations.</p>
+        <h1 className='text-4xl lg:text-6xl font-bold'>Transform Your NonProfit's <span className='text-primary'>Digital Operations</span></h1>
+        <p className='text-gray-500 lg:text-lg'>Non-Profit Project is a platform for non-profit organizations to manage their projects and donations.</p>
         <div className='flex gap-4'>
           <button className='btn btn-primary'>Get Started</button>
           <button className='btn btn-outline'>Watch Demo</button>
