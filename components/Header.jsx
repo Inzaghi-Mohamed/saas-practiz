@@ -1,7 +1,6 @@
 import React from 'react'
+import Button from '@/components/ButtonCheckout'
 import Link from 'next/link'
-import Image from 'next/image'
-import logo from '@/public/logo.png'
 function Header() {
   return (
     <section className="border-b border-gray-400 bg-base-100 mb-10 sticky top-0 z-10">
@@ -18,7 +17,7 @@ function Header() {
         <Link className='hover:text-primary hover:underline' href="#faq">FAQ</Link>
       </div>
       <div>
-          <button className="btn btn-primary">Get Started</button>
+          <Button extrastyle="btn-primary" name="Get Started"/>
         </div>
       </div>
     </section>

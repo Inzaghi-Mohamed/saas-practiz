@@ -19,11 +19,11 @@ function Testimonials() {
             <h3 className="font-semibold text-xl">John Doe</h3>
             <p className="text-sm opacity-70">CEO, TechCorp</p>
             <div className="rating rating-md mt-4">
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
             </div>
           </div>
         </div>
@@ -45,11 +45,11 @@ function Testimonials() {
             <h3 className="font-semibold text-xl">Sarah Johnson</h3>
             <p className="text-sm opacity-70">Director, Hope Foundation</p>
             <div className="rating rating-md mt-4">
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
             </div>
           </div>
         </div>
@@ -70,11 +70,11 @@ function Testimonials() {
             <h3 className="font-semibold text-xl">Michael Smith</h3>
             <p className="text-sm opacity-70">Founder, Community Outreach</p>
             <div className="rating rating-md mt-4">
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+                <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+              <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
+                  <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked readOnly/>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@/components/ButtonCheckout";     
 
 function Pricing() {
   return (
@@ -80,7 +81,7 @@ function Pricing() {
                 </li>
               </ul>
               <div className="card-actions">
-                <button className="btn btn-primary">Choose Basic</button>
+                <Button  extrastyle="btn-primary" name="Choose Basic"/>
               </div>
             </div>
           </div>
@@ -170,7 +171,7 @@ function Pricing() {
                 </li>
               </ul>
               <div className="card-actions">
-                <button className="btn btn-secondary">Choose Pro</button>
+                  <Button  extrastyle="btn-secondary" name="Choose Pro"/>
               </div>
             </div>
           </div>
@@ -275,7 +276,7 @@ function Pricing() {
                 </li>
               </ul>
               <div className="card-actions">
-                <button className="btn btn-outline">Contact Sales</button>
+                <Button  extrastyle="btn-outline" name="Contact Sales"/>
               </div>
             </div>
           </div>
