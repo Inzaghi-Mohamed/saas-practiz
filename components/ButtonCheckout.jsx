@@ -3,7 +3,7 @@ import Link from 'next/link'
 function Button({extrastyle, name}) {
   return (
     <div>
-         <Link href="/dashboard">
+         <Link href="/api/auth/signin">
             <button className={`btn ${extrastyle}`}>{name}</button>
           </Link>
     </div>
