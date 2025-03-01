@@ -5,13 +5,18 @@ import NextAuth from "next-auth";
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import clientPromise from "@/libs/mongo.js";
 import Resend from "next-auth/providers/resend";
+import Google from "next-auth/providers/google";
 // 2. configure the authentication for the application
 const config ={
     providers: [
         Resend({
             apiKey: process.env.RESEND_KEY,
             from: "no-reply@resend.cinecraft.pro",
-            name: "Email",
+            name: "Email"
+        }),
+        Google({
+            clientId: process.env.GOOGLE_ID,
+            clientSecret: process.env.GOOGLE_SECRET,
         }),
     ],
     adapter: MongoDBAdapter(clientPromise),
