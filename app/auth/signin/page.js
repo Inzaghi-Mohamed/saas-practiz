@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Image from "next/image";
 import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 
-export default function SignIn() {
+// Create a client component that uses useSearchParams
+function SignInContent() {
   const [email, setEmail] = useState("");
   const [isEmailSubmitted, setIsEmailSubmitted] = useState(false);
   const [authError, setAuthError] = useState("");
@@ -177,5 +178,23 @@ export default function SignIn() {
         </div>
       </div>
     </div>
+  );
+}
+
+// Loading fallback for Suspense
+function SignInFallback() {
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+    </div>
+  );
+}
+
+// Main component with Suspense boundary
+export default function SignIn() {
+  return (
+    <Suspense fallback={<SignInFallback />}>
+      <SignInContent />
+    </Suspense>
   );
 } 
